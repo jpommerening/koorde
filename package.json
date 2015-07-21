@@ -1,0 +1,29 @@
+{
+  "name": "koorde",
+  "version": "0.0.0",
+  "description": "Shared data model and pub-sub middleware for distributed services",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jpommerening/koorde.git"
+  },
+  "author": {
+    "name": "Jonas Pommerening",
+    "email": "jonas.pommerening@gmail.com",
+    "url": "https://npmjs.org/~jpommerening"
+  },
+  "bugs": {
+    "url": "http://github.com/jpommerening/koorde/issues"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {
+    "uuid": "~2.0.1",
+    "netif": "~0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "expect.js": "~0.3.1"
+  }
+}
