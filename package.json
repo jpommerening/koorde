@@ -16,11 +16,12 @@
     "url": "http://github.com/jpommerening/koorde/issues"
   },
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "mocha"
   },
   "dependencies": {
     "uuid": "~2.0.1",
-    "netif": "~0.1.7"
+    "netif": "~0.2.0",
+    "bignum": "~0.10.2"
   },
   "devDependencies": {
     "mocha": "~2.2.5",
