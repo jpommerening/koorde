@@ -16,7 +16,8 @@
     "url": "http://github.com/jpommerening/koorde/issues"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "codecov.io": "mocha --require blanket --reporter json-cov | codecov"
   },
   "dependencies": {
     "uuid": "~2.0.1",
@@ -25,6 +26,16 @@
   },
   "devDependencies": {
     "mocha": "~2.2.5",
-    "expect.js": "~0.3.1"
+    "expect.js": "~0.3.1",
+    "blanket": "~1.1.7",
+    "codecov.io": "~0.1.5"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        ""
+      ],
+      "data-cover-only": "./lib/"
+    }
   }
 }
