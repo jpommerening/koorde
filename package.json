@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "uuid": "~2.0.1",
-    "netif": "~0.2.0",
+    "netif": "unstable",
     "bignum": "~0.10.2"
   },
   "devDependencies": {
