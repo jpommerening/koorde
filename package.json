@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "codecov.io": "mocha --require blanket --reporter json-cov | codecov"
+    "codecov.io": "mocha --reporter json-cov | codecov"
   },
   "dependencies": {
     "uuid": "~2.0.1",
@@ -29,13 +29,5 @@
     "expect.js": "~0.3.1",
     "blanket": "~1.1.7",
     "codecov.io": "~0.1.5"
-  },
-  "config": {
-    "blanket": {
-      "pattern": [
-        ""
-      ],
-      "data-cover-only": "./lib/"
-    }
   }
 }
