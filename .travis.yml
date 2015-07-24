@@ -8,5 +8,4 @@ install:
   - npm install
 script:
   - npm test
-  - npm install codecov.io
-  - npm run-script coverage | codecov.io
+  - npm run-script codecov.io
